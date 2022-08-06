@@ -46,7 +46,7 @@ root = math.sqrt(number)
 if int(root + 0.5) ** 2 == number:
     print("Hypotenuse value (c): " + str(math.ceil(c)))
 else:
-    print("√" + str(number))
+    print("Hypotenuse value (c): " + "√" + str(number))
     print("Would you like to simplify?")
     answer = None
     while answer not in ("y", "n"):
